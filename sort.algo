@@ -1,0 +1,17 @@
+ALGORITHM sorting
+VAR
+    arr : ARRAY_OF INTEGER;
+    i,j,n : INTEGER
+BEGIN
+    FOR i FROM 2 TO n STEP step  DO
+        set New:=A[i]
+        FOR j:=i-1 Down TO 1
+            IF (New<arr[j]) THEN
+                A[j+1]:=A[j]
+            ELSE
+            break
+            END_IF
+        END_FOR
+    END_FOR
+    A[j+1]:=New
+END
