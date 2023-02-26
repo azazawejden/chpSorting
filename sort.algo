@@ -1,7 +1,9 @@
 ALGORITHM sorting
 VAR
-    arr : ARRAY_OF INTEGER;
+    arr : ARRAY_OF INTEGER
     i,j,n : INTEGER
+    set New: ARRAY_OF INTEGER
+    New: ARRAY_OF INTEGER
 BEGIN
     FOR i FROM 2 TO n STEP step  DO
         set New:=A[i]
