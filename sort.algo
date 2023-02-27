@@ -2,11 +2,11 @@ ALGORITHM sorting
 VAR
     arr : ARRAY_OF INTEGER
     i,j,n : INTEGER
-    set New: ARRAY_OF INTEGER
+    setNew: ARRAY_OF INTEGER
     New: ARRAY_OF INTEGER
 BEGIN
     FOR i FROM 2 TO n STEP step  DO
-        set New:=A[i]
+        setNew:=A[i]
         FOR j:=i-1 Down TO 1
             IF (New<arr[j]) THEN
                 A[j+1]:=A[j]
